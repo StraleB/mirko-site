@@ -23,13 +23,13 @@ body{
 .hero-section{
     background:url('../images/background.png');
     background-size: cover;
-    height: 60em;
+    height: 56em;
     color: white;
 }
 
 nav ul{
     float: right;
-    margin: 2em 8em;
+    margin: 2em 6em;
 }
 
 nav ul li{
@@ -39,26 +39,23 @@ nav ul li{
 
 }
 
-
-
-
 nav ul li a{
     color: white;
     font-weight: 400;
-    font-size: 1.9em;
+    font-size: 1.4em;
     text-decoration: none;
 }
 
 nav ul li a:hover {color: cyan;}
 
 .hero-section img{
-    height: 50em;
-    width: 50em;
+    height: 44em;
+    width: 44em;
 }
 
 .description{
     width: 90vw;
-    margin: 0em 4vw;
+    margin: 0em 4.4vw;
     float: left;
 }
 
@@ -69,25 +66,25 @@ nav ul li a:hover {color: cyan;}
     position: relative;
     float: right;
     text-align: right;
-    margin-top: 9em;
+    margin-top: 8em;
 }
 
 .txt h1{
-    font-size: 5em;
+    font-size: 4em;
 }
 
 .txt p{
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: lighter;
     margin-top: 1em;
 }
 
 .txt .btn-light{
     font-weight: 700;
-    font-size: 1.7em;
+    font-size: 1.4em;
     padding: 0.5em 2em;
     border-radius: 0.6em;
-    margin-top: 4em;
+    margin-top: 3.5em;
 
 }
 
@@ -97,37 +94,38 @@ nav ul li a:hover {color: cyan;}
 
 .img-backgrounds{
     float:right;
-    margin: -55em -10em;
+    margin: -55em 0em;
 }
 
 .img-backgrounds img{
-    margin: -5em 0;
+    margin: 9em 0;
+    height: 80vh;
 }
 
 .white-rec{
 height: 10em;
-width: 34em;
+width: 30em;
 background-color: rgb(255, 255, 255);
 margin: -58em -3em;
 }
 
 .cyan-rec{
     height: 35em;
-    width: 30em;
-    margin:78em 13em;
+    width: 25em;
+    margin:64em 8em;
     float: left;
     background: cyan;
 }
 
 .about-me h1{
-    font-size: 4em;
+    font-size: 3em;
     margin: 1.5em 2em;
 
 }
 
 .about-me p{
     width: 20em;
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 2em 3.9em;
 }
 
@@ -141,27 +139,25 @@ margin: -58em -3em;
 
 .portfolio h1{
     color: white;
-    font-size: 4em;
-    padding-top: 1em;
-    margin: 0em 2em;
+    font-size: 3em;
+    margin: 0em 1.6em;
 }
 
 .gallery{
-    margin: 0 6vw;
-    width: 90vw;
+    margin: 0 4vw;
+    width: 98vw;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 }
 
 .gallery img{
-    height: 40em;
+    height: 35em;
 }
 
 
 .grid-item{
-    background-color: purple;
-    max-height: 29em;
-    max-width: 26.5em;
+    max-height: 27em;
+    max-width: 24.5em;
     overflow: hidden;
     margin-top: 2em;
 }
@@ -179,21 +175,21 @@ grid-template-columns: 1fr 1fr 1fr;
 
 
 .contact-and-form h1{
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .contact-and-form p{
-    font-size: 2em;
+    font-size: 1.4em;
     font-weight: 300;
 }
 
 .contact-and-form form{
-    width: 36.5em;
+    width: 28em;
 }
 
 .contact-and-form input{
     outline: none;
-    font-size: 2em;
+    font-size: 1.5em;
     margin-top: 1em;
     width: 100%;
     font-weight: lighter;
@@ -204,7 +200,7 @@ grid-template-columns: 1fr 1fr 1fr;
 textarea{
     width: 100%;
     margin-top: 1em;
-    font-size: 2em;
+    font-size: 1.4em;
     font-weight: lighter;
     border: 2px solid black;
     outline: none;
@@ -214,7 +210,7 @@ textarea{
     background: #12232A;
     color: white;
     font-weight: 300;
-    font-size: 3em;
+    font-size: 2em;
     width: 100%;
     margin-top: 0.5em;
 }
@@ -224,13 +220,13 @@ textarea{
 .info{
     background: #12232A;
     color: white;
-    width: 43em;
-    height: 44em;
-    margin: 3em 15em;
+    width: 33em;
+    height: 34em;
+    margin: 2em 15em;
 }
 
 .info h2{
-    font-size: 3.4em;
+    font-size: 3em;
     font-weight: 300;
     padding-top: 1em;
     margin: 0em 1.2em;
@@ -243,7 +239,7 @@ padding: 0 4em;
 .details li{
     list-style: none;
     font-weight: 400;
-    font-size: 2.5em;
+    font-size: 1.8em;
     line-height: 3.2em;
 
 }
@@ -256,152 +252,198 @@ padding: 0 4em;
 .info-cyan-rec{
     height: 7.2em;
     width: 7.2em;
-    margin: -42.6em -5em;
+    margin: -34em -5em;
     background-color: #00ffff;
 
 }
 
-@media only screen and (max-width: 2000px){
-    nav ul{
-        margin: 2em 6em;
-    }
+@media only screen and (max-width: 1440px){
+    nav ul li{
+    display: inline;
+    list-style-type: none;
+    margin-left: 4em;
 
-    .info{
-        width: 43em;
-        height: 44em;
-        margin: 3em 0em;
-    }
 }
+    
+    nav ul li a{
+        font-size: 1.2em;
+    }
 
-
-@media only screen and (max-width: 1800px){
     .hero-section img{
-        height: 43em;
-        width: 43em;
-        margin-top: 3em;
+        margin: 2.5em 0;
+        height: 35em;
+        width: 35em;
     }
-
-    nav ul li a{
-        color: white;
-        font-weight: 400;
-        font-size: 1.7em;
-        text-decoration: none;
+    .description{
+        width: 90vw;
+        margin: 0em 4vw;
+        float: left;
     }
-    
-
-    .info{
-        width: 43em;
-        height: 44em;
-        margin: 3em 3em;
+    .txt{
+        position: relative;
+        float: right;
+        text-align: right;
+        margin-top: 7em;
     }
-
     .txt h1{
-        font-size: 4em;
+        font-size: 3em;
     }
     
     .txt p{
-        font-size: 2.5em;
-    }
-
-    .txt .btn-light{
-        font-weight: 700;
-        font-size: 1.4em;
-        margin-top: 3em;
-    }
-}
-
-@media only screen and (max-width: 1600px){
-
-    .hero-section{
-        height: 55em;
-    }
-
-    nav ul li a{
-        font-size: 1.4em;
-    }
-
-    .txt h1{
-        font-size: 4em;
-    }
-    
-    .txt p{
-        font-size: 2.5em;
-        font-weight: lighter;
+        font-size: 2em;
         margin-top: 1em;
     }
     
     .txt .btn-light{
-        font-size: 1.4em;
-        padding: 0.5em 2em;
-        border-radius: 0.5em;
+        font-size: 1.2em;
         margin-top: 3em;
-    
     }
 
+    .hero-section{
+        height: 49em;
+    }
 
     /*About me*/
 
-    .img-backgrounds{
-        margin: -50em -7em;
-    }
-    
-    .img-backgrounds img{
-        margin: -5em 0;
-        height: 49em;
-    }
-    
-    .white-rec{
-    height: 10em;
-    width: 30em;
-    margin: -46.5em -3em;
-    }
-    
-    .cyan-rec{
-        height: 30em;
-        width: 25em;
-        margin:60em 10em;
-    }
-    
-    .about-me h1{
-        font-size: 3em;
-        margin: 1.5em 2em;
-    
-    }
-    
-    .about-me p{
-        width: 20em;
-        font-size: 1.9em;
-        margin: 2em 3em;
-    }
 
-    /*contact and form*/
-    .contact-and-form h1{
-        font-size: 3em;
-    }
-
-    .contact-and-form p{
-        font-size: 1.8em;
-    }
-
-    .contact-and-form form{
-        width: 33em;
-    }
-    
-    .contact-and-form input{
-        font-size: 1.8em;
-    }
-    
-    textarea{
-        margin-top: 1em;
-        font-size: 1.8em;
-    }
-
-    .contact-and-form button{
-        font-size: 2em;
-        width: 100%;
-        margin-top: 0.5em;
-    }
+.img-backgrounds{
+    float:right;
+    margin: -55em -6em;
 }
+
+.img-backgrounds img{
+    margin: 15em 0;
+    height: 70vh;
+}
+
+.white-rec{
+height: 10em;
+width: 26em;
+margin: -57.5em -2em;
+}
+
+.cyan-rec{
+    height: 28em;
+    width: 20em;
+    margin:64em 9em;
+}
+
+.about-me h1{
+    font-size: 2.5em;
+    margin: 1.5em 2em;
+
+}
+
+.about-me p{
+    font-size: 1.3em;
+    margin: 2em 3.9em;
+}
+
+/*Portfolio*/
+
+.portfolio{
+    margin-top: 11em;
+    padding: 5em 1em;
+}
+
+.portfolio h1{
+    font-size: 2.5em;
+    margin: 0em 1.6em;
+}
+
+.gallery{
+    width: 90vw;
+}
+
+.gallery img{
+    height: 32em;
+}
+
+
+.grid-item{
+    max-height: 25em;
+    max-width: 22.5em;
+}
+
+/*Contact*/
+
+.contact-and-form{
+    height: 52em;
+    padding: 7em 0;
+    width: 120vw;
+    margin: 0 auto;
+    
+}
+
+
+.contact-and-form h1{
+    font-size: 2.5em;
+    margin: 0 2em;
+}
+
+.contact-and-form p{
+    font-size: 1.3em;
+    margin: 1em 4em;
+}
+
+.contact-and-form form{
+    width: 22em;
+    margin: 0 5.2em;
+}
+
+.contact-and-form input{
+    outline: none;
+    font-size: 1.3em;
+    margin-top: 1em;
+}
+
+textarea{
+    margin-top: 1.2em;
+    font-size: 1.3em;
+}
+
+.contact-and-form button{
+    font-size: 1.9em;
+    margin-top: 0.5em;
+}
+
+/*info section*/
+
+.info{
+    width: 29em;
+    height: 31em;
+    margin: 2em 0em;
+}
+
+.info h2{
+    font-size: 2.5em;
+    font-weight: 300;
+    padding-top: 1em;
+    margin: 0em 1.5em;
+}
+
+.details{
+padding: 0 4em;
+}
+
+.details li{
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 3.2em;
+
+}
+
+
+.info-cyan-rec{
+    height: 4.2em;
+    width: 4.2em;
+    margin: -25em -1.5em;
+
+}
+
+
+}
+
 
 @media only screen and (max-width: 965px){
 
@@ -416,7 +458,7 @@ nav ul{
     position: absolute;
     top:-2em;
     right: -6em;
-    width: 18em;
+    width: 16em;
     height: 23em;
     text-align: left;
     padding: 1em 1em ;
@@ -425,6 +467,9 @@ nav ul{
 
 nav{position: relative;}
 
+nav:hover ul {
+    display: block;
+}
 
 nav ul li{
     padding-top: 1em;
@@ -597,11 +642,11 @@ margin: 0 20vw;
 
 @media only screen and (max-width: 625px){
     .hero-section{
-        height:85vh;
+        height:105vh;
     }
 
     .about-me h1{
-        font-size: 2.5em;
+        font-size: 2.4em;
         margin: 1.5em 7vw;
     
     }
@@ -612,13 +657,25 @@ margin: 0 20vw;
         margin: 0.8em 7vw;
     }
 
+    .contact-and-form h1{
+        font-size: 2.4em;
+        width: 8em;
+        margin: auto;
+    }
+
+    .contact-and-form p{
+        font-size: 1.3em;
+        width: 14.5em;
+        margin: 1em auto;
+    }
+
     .contact-and-form form{
-        width: 23em;
+        width: 18em;
         margin: -1.5em auto
     }
     
     .contact-and-form input{
-        font-size: 1.8em;
+        font-size: 1.4em;
     }
     
     .contact-and-form button{
@@ -629,10 +686,60 @@ margin: 0 20vw;
         margin: 0 1vw;
         }
 
+        .info{
+            margin-top: 11.6em;
+        }
+
         .info h2{
             font-size: 2em;
             font-weight: 300;
             padding-top: 1em;
             margin: 0em 6vw;
         }
+}
+
+@media only screen and (max-width: 420px){
+    .hero-section{
+        height:120vh;
+    }
+
+    .about-me h1{
+        font-size: 2.9em;
+        margin: 1.5em auto;
+        width: 7.8em;
+    }
+    
+    .about-me p{
+        width: 15em;
+        font-size: 1.5em;
+        margin: 0.5em auto;
+    }
+
+    .details{
+        margin: 0 auto;
+        }
+
+        .details li{
+            font-size: 1.5em;
+        }
+}
+
+@media only screen and (max-width: 375px){
+    .hero-section{
+        height: 105vh;
+    }
+
+    .about-me h1{
+        font-size: 2.5em;
+        margin: 1.5em auto;
+        width: 7.8em;
+    }
+    
+    .about-me p{
+        width: 15em;
+        font-size: 1.3em;
+        margin: 0.5em auto;
+    }
+
+   
 }
