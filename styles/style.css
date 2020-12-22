@@ -1,59 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
-    
+
 }
 
-.hamb-menu{display: none;}
+.hamb-menu {
+    display: none;
+}
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
     overflow: hidden;
     overflow-y: scroll;
 }
 
-#carouselExampleControls{display: none;}
+#carouselExampleControls {
+    display: none;
+}
 
-.close{
+.close {
     font-size: 3em;
     display: none;
 }
 
-.hero-section{
-    background:url('../images/background.png');
+.hero-section {
+    background: url('../images/background.png');
     background-size: cover;
     height: 56em;
     color: white;
 }
 
-nav ul{
+nav ul {
     float: right;
     margin: 2em 6em;
 }
 
-nav ul li{
+nav ul li {
     display: inline;
     list-style-type: none;
     margin-left: 6em;
 
 }
 
-nav ul li a{
+nav ul li a {
     color: white;
     font-weight: 400;
     font-size: 1.4em;
     text-decoration: none;
 }
 
-nav ul li a:hover {color: cyan;}
+nav ul li a:hover {
+    color: cyan;
+}
 
-.hero-section img{
+.hero-section img {
     height: 44em;
     width: 44em;
 }
 
-.description{
+.description {
     width: 90vw;
     margin: 0em 4.4vw;
     float: left;
@@ -62,24 +69,24 @@ nav ul li a:hover {color: cyan;}
 /*about*/
 
 
-.txt{
+.txt {
     position: relative;
     float: right;
     text-align: right;
     margin-top: 8em;
 }
 
-.txt h1{
+.txt h1 {
     font-size: 4em;
 }
 
-.txt p{
+.txt p {
     font-size: 2.5em;
     font-weight: lighter;
     margin-top: 1em;
 }
 
-.txt .btn-light{
+.txt .btn-light {
     font-weight: 700;
     font-size: 1.4em;
     padding: 0.5em 2em;
@@ -92,38 +99,38 @@ nav ul li a:hover {color: cyan;}
 /*About me*/
 
 
-.img-backgrounds{
-    float:right;
+.img-backgrounds {
+    float: right;
     margin: -55em 0em;
 }
 
-.img-backgrounds img{
+.img-backgrounds img {
     margin: 9em 0;
     height: 80vh;
 }
 
-.white-rec{
-height: 10em;
-width: 30em;
-background-color: rgb(255, 255, 255);
-margin: -58em -3em;
+.white-rec {
+    height: 10em;
+    width: 30em;
+    background-color: rgb(255, 255, 255);
+    margin: -58em -3em;
 }
 
-.cyan-rec{
+.cyan-rec {
     height: 35em;
     width: 25em;
-    margin:64em 8em;
+    margin: 64em 8em;
     float: left;
     background: cyan;
 }
 
-.about-me h1{
+.about-me h1 {
     font-size: 3em;
     margin: 1.5em 2em;
 
 }
 
-.about-me p{
+.about-me p {
     width: 20em;
     font-size: 1.5em;
     margin: 2em 3.9em;
@@ -131,31 +138,31 @@ margin: -58em -3em;
 
 /*Portfolio*/
 
-.portfolio{
+.portfolio {
     background-color: #13242b;
     margin-top: 11em;
     padding: 5em 1em;
 }
 
-.portfolio h1{
+.portfolio h1 {
     color: white;
     font-size: 3em;
     margin: 0em 1.6em;
 }
 
-.gallery{
+.gallery {
     margin: 0 4vw;
     width: 98vw;
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-.gallery img{
+.gallery img {
     height: 35em;
 }
 
 
-.grid-item{
+.grid-item {
     max-height: 27em;
     max-width: 24.5em;
     overflow: hidden;
@@ -164,30 +171,29 @@ grid-template-columns: 1fr 1fr 1fr;
 
 /*Contact*/
 
-.contact-and-form{
+.contact-and-form {
     height: 65em;
     padding: 7em 0;
     width: 90vw;
     margin: 0 auto;
-    
+
 }
 
 
-
-.contact-and-form h1{
+.contact-and-form h1 {
     font-size: 3em;
 }
 
-.contact-and-form p{
+.contact-and-form p {
     font-size: 1.4em;
     font-weight: 300;
 }
 
-.contact-and-form form{
+.contact-and-form form {
     width: 28em;
 }
 
-.contact-and-form input{
+.contact-and-form input {
     outline: none;
     font-size: 1.5em;
     margin-top: 1em;
@@ -197,7 +203,7 @@ grid-template-columns: 1fr 1fr 1fr;
     border-color: transparent transparent black transparent;
 }
 
-textarea{
+textarea {
     width: 100%;
     margin-top: 1em;
     font-size: 1.4em;
@@ -206,7 +212,7 @@ textarea{
     outline: none;
 }
 
-.contact-and-form button{
+.contact-and-form button {
     background: #12232A;
     color: white;
     font-weight: 300;
@@ -217,7 +223,7 @@ textarea{
 
 /*info section*/
 
-.info{
+.info {
     background: #12232A;
     color: white;
     width: 33em;
@@ -225,18 +231,18 @@ textarea{
     margin: 2em 15em;
 }
 
-.info h2{
+.info h2 {
     font-size: 3em;
     font-weight: 300;
     padding-top: 1em;
     margin: 0em 1.2em;
 }
 
-.details{
-padding: 0 4em;
+.details {
+    padding: 0 4em;
 }
 
-.details li{
+.details li {
     list-style: none;
     font-weight: 400;
     font-size: 1.8em;
@@ -244,12 +250,12 @@ padding: 0 4em;
 
 }
 
-.details ion-icon{
+.details ion-icon {
     margin: -0.19em 0;
     padding-right: 0.3em;
 }
 
-.info-cyan-rec{
+.info-cyan-rec {
     height: 7.2em;
     width: 7.2em;
     margin: -34em -5em;
@@ -257,489 +263,530 @@ padding: 0 4em;
 
 }
 
-@media only screen and (max-width: 1440px){
-    nav ul li{
-    display: inline;
-    list-style-type: none;
-    margin-left: 4em;
+@media only screen and (max-width: 1440px) {
+    nav ul li {
+        display: inline;
+        list-style-type: none;
+        margin-left: 4em;
 
-}
-    
-    nav ul li a{
+    }
+
+    nav ul li a {
         font-size: 1.2em;
     }
 
-    .hero-section img{
+    .hero-section img {
         margin: 2.5em 0;
-        height: 35em;
-        width: 35em;
+        height: 31em;
+        width: 31em;
     }
-    .description{
+
+    .description {
         width: 90vw;
         margin: 0em 4vw;
         float: left;
     }
-    .txt{
+
+    .txt {
         position: relative;
         float: right;
         text-align: right;
         margin-top: 7em;
     }
-    .txt h1{
+
+    .txt h1 {
         font-size: 3em;
     }
-    
-    .txt p{
+
+    .txt p {
         font-size: 2em;
         margin-top: 1em;
     }
-    
-    .txt .btn-light{
+
+    .txt .btn-light {
         font-size: 1.2em;
         margin-top: 3em;
     }
 
-    .hero-section{
+    .hero-section {
         height: 49em;
     }
 
     /*About me*/
 
 
-.img-backgrounds{
-    float:right;
-    margin: -55em -6em;
+    .img-backgrounds {
+        float: right;
+        margin: -55em -6em;
+    }
+
+    .img-backgrounds img {
+        margin: 15em 0;
+        height: 70vh;
+    }
+
+    .white-rec {
+        height: 10em;
+        width: 26em;
+        margin: -57.5em -2em;
+    }
+
+    .cyan-rec {
+        height: 28em;
+        width: 20em;
+        margin: 64em 9em;
+    }
+
+    .about-me h1 {
+        font-size: 2.5em;
+        margin: 1.5em 2em;
+
+    }
+
+    .about-me p {
+        font-size: 1.3em;
+        margin: 2em 3.9em;
+    }
+
+    /*Portfolio*/
+
+    .portfolio {
+        margin-top: 11em;
+        padding: 5em 1em;
+    }
+
+    .portfolio h1 {
+        font-size: 2.5em;
+        margin: 0em 1.6em;
+    }
+
+    .gallery {
+        width: 90vw;
+    }
+
+    .gallery img {
+        height: 32em;
+    }
+
+
+    .grid-item {
+        max-height: 25em;
+        max-width: 20.5em;
+    }
+
+    /*Contact*/
+
+    .contact-and-form {
+        height: 52em;
+        padding: 7em 0;
+        width: 120vw;
+        margin: 0 auto;
+
+    }
+
+
+    .contact-and-form h1 {
+        font-size: 2.5em;
+        margin: 0 2em;
+    }
+
+    .contact-and-form p {
+        font-size: 1.3em;
+        margin: 1em 4em;
+    }
+
+    .contact-and-form form {
+        width: 22em;
+        margin: 0 5.2em;
+    }
+
+    .contact-and-form input {
+        outline: none;
+        font-size: 1.3em;
+        margin-top: 1em;
+    }
+
+    textarea {
+        margin-top: 1.2em;
+        font-size: 1.3em;
+    }
+
+    .contact-and-form button {
+        font-size: 1.9em;
+        margin-top: 0.5em;
+    }
+
+    /*info section*/
+
+    .info {
+        width: 29em;
+        height: 31em;
+        margin: 2em 0em;
+    }
+
+    .info h2 {
+        font-size: 2.5em;
+        font-weight: 300;
+        padding-top: 1em;
+        margin: 0em 1.5em;
+    }
+
+    .details {
+        padding: 0 4em;
+    }
+
+    .details li {
+        font-weight: 400;
+        font-size: 1.3em;
+        line-height: 3.2em;
+
+    }
+
+
+    .info-cyan-rec {
+        height: 3.3em;
+        width: 3.3em;
+        margin: -25em -1.5em;
+
+    }
+
+
 }
 
-.img-backgrounds img{
-    margin: 15em 0;
-    height: 70vh;
+@media only screen and (max-width: 1366px){
+    .white-rec {
+        height: 10em;
+        width: 22em;
+        margin: -52.5em -2em;
+    }
+
+    .cyan-rec {
+        height: 26em;
+        width: 20em;
+        margin: 56em 5em;
+    }
+
+    .img-backgrounds {
+        float: right;
+        margin: -55em 0em;
+    }
 }
 
-.white-rec{
-height: 10em;
-width: 26em;
-margin: -57.5em -2em;
-}
+@media only screen and (max-width: 1280px){
+    .white-rec {
+        margin: -59em -2em;
+    }
 
-.cyan-rec{
-    height: 28em;
-    width: 20em;
-    margin:64em 9em;
-}
+    .cyan-rec {
+        height: 26em;
+        width: 20em;
+        margin: 69em 10em;
+    }
 
-.about-me h1{
-    font-size: 2.5em;
-    margin: 1.5em 2em;
-
-}
-
-.about-me p{
-    font-size: 1.3em;
-    margin: 2em 3.9em;
-}
-
-/*Portfolio*/
-
-.portfolio{
-    margin-top: 11em;
-    padding: 5em 1em;
-}
-
-.portfolio h1{
-    font-size: 2.5em;
-    margin: 0em 1.6em;
-}
-
-.gallery{
-    width: 90vw;
-}
-
-.gallery img{
-    height: 32em;
+    .img-backgrounds {
+        float: right;
+        margin: -55em -7em;
+    }
 }
 
 
-.grid-item{
-    max-height: 25em;
-    max-width: 22.5em;
-}
+@media only screen and (max-width: 965px) {
 
-/*Contact*/
-
-.contact-and-form{
-    height: 52em;
-    padding: 7em 0;
-    width: 120vw;
-    margin: 0 auto;
-    
-}
-
-
-.contact-and-form h1{
-    font-size: 2.5em;
-    margin: 0 2em;
-}
-
-.contact-and-form p{
-    font-size: 1.3em;
-    margin: 1em 4em;
-}
-
-.contact-and-form form{
-    width: 22em;
-    margin: 0 5.2em;
-}
-
-.contact-and-form input{
-    outline: none;
-    font-size: 1.3em;
-    margin-top: 1em;
-}
-
-textarea{
-    margin-top: 1.2em;
-    font-size: 1.3em;
-}
-
-.contact-and-form button{
-    font-size: 1.9em;
-    margin-top: 0.5em;
-}
-
-/*info section*/
-
-.info{
-    width: 29em;
-    height: 31em;
-    margin: 2em 0em;
-}
-
-.info h2{
-    font-size: 2.5em;
-    font-weight: 300;
-    padding-top: 1em;
-    margin: 0em 1.5em;
-}
-
-.details{
-padding: 0 4em;
-}
-
-.details li{
-    font-weight: 400;
-    font-size: 1.3em;
-    line-height: 3.2em;
-
-}
-
-
-.info-cyan-rec{
-    height: 4.2em;
-    width: 4.2em;
-    margin: -25em -1.5em;
-
-}
-
-
-}
-
-
-@media only screen and (max-width: 965px){
-
-    .hero-section{
-        background:#12232A;
-        height:120vh;
+    .hero-section {
+        background: #12232A;
+        height: 120vh;
         color: white;
     }
 
-nav ul{
-    display: none;
-    position: absolute;
-    top:-2em;
-    right: -6em;
-    width: 16em;
-    height: 23em;
-    text-align: left;
-    padding: 1em 1em ;
-    background-color:rgba(0, 0, 0, 0.9);
-}
-
-nav{position: relative;}
-
-nav:hover ul {
-    display: block;
-}
-
-nav ul li{
-    padding-top: 1em;
-  margin: 4em 2em;
-  line-height: 4em;
-}
-
-.close{
-    display: block;
-    float: right;
-}
-
-
-
-.hamb-menu{
-    color: white;
-    display: block;
-    position:absolute;
-    top: 0;
-    right: 0.3em;
-    font-size: 5em;
-}
-
-.hero-section img{
-    width: 120%;
-    height: 100%;
-    margin: -1em -3em;
-}
-
-.txt{
-    position: relative;
-    float: left;
-    text-align: left;
-    margin-top: 4em;
-}
-
-.txt h1{
-    font-size: 3em;
-}
-
-.txt p{
-    font-size: 2em;
-    font-weight: lighter;
-    margin-top: 1em;
-}
-
-.txt .btn-light{
-    font-size: 1.2em;
-    border-radius: 0.5em;
-    margin-top: 1em;
-
-}
-
-.about-me h1{
-    font-size: 3em;
-    margin: 1.5em 13vw;
-
-}
-
-.about-me p{
-    width: 20em;
-    font-size: 1.6em;
-    margin: 1em 13vw;
-}
-
-.img-backgrounds{
-display: none;
-}
-
-.gallery{
-    display: none;
-
-}
-
-#carouselExampleControls{
-    display: block;
-}
-
-
-.carousel-item{
-    overflow: hidden;
-    max-width: 90vw;
-    max-height: 50em;
-}
-
-.carousel-inner{
-    margin: auto;
-}
-
-.carousel-item img{
-    width: 120%;
-}
-
-.portfolio h1{
-    color: white;
-    font-size: 3em;
-    padding-bottom: 2em;
-    margin: -1em 0em;
-}
-
-.info-cyan-rec{
-    display: none;
-}
-
-.contact-and-form{
-    overflow: hidden;
-    margin: -4em 0;
-    height: 85em;
-    width: 100%;
-}
-
-.info{
-    width: 150em;
-    margin: 10em 0;
-
-}
-
-.contact-and-form h1{
-    font-size: 2.5em;
-    margin: 0 1em;
-}
-
-.contact-and-form p{
-    font-size: 1.4em;
-    margin: 1em 1.9em;
-}
-
-.contact-and-form form{
-    width: 26em;
-    margin: -1.5em 2em
-}
-
-.contact-and-form input{
-    font-size: 1.8em;
-}
-
-textarea{
-    margin-top: 1em;
-    font-size: 1.8em;
-}
-
-.contact-and-form button{
-    font-size: 2em;
-    width: 100%;
-    margin-top: 0.5em;
-}
-
-.info h2{
-    font-size: 2em;
-    font-weight: 300;
-    padding-top: 1em;
-    margin: 0em 24vw;
-}
-
-.details{
-padding: 0 2em;
-margin: 0 20vw;
-}
-
-.details li{
-    list-style: none;
-    font-weight: 400;
-    font-size: 1.6em;
-    line-height: 3em;
-
-}
-
-}
-
-
-@media only screen and (max-width: 625px){
-    .hero-section{
-        height:105vh;
+    nav ul {
+        display: none;
+        position: absolute;
+        top: -2em;
+        right: -6em;
+        width: 16em;
+        height: 23em;
+        text-align: left;
+        padding: 1em 1em;
+        background-color: rgba(0, 0, 0, 0.9);
     }
 
-    .about-me h1{
+    nav {
+        position: relative;
+    }
+
+    nav:hover ul {
+        display: block;
+    }
+
+    nav ul li {
+        padding-top: 1em;
+        margin: 4em 2em;
+        line-height: 4em;
+    }
+
+    .close {
+        display: block;
+        float: right;
+    }
+
+
+
+    .hamb-menu {
+        color: white;
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0.3em;
+        font-size: 5em;
+    }
+
+    .hero-section img {
+        width: 120%;
+        height: 100%;
+        margin: -1em -3em;
+    }
+
+    .txt {
+        position: relative;
+        float: left;
+        text-align: left;
+        margin-top: 4em;
+    }
+
+    .txt h1 {
+        font-size: 3em;
+    }
+
+    .txt p {
+        font-size: 2em;
+        font-weight: lighter;
+        margin-top: 1em;
+    }
+
+    .txt .btn-light {
+        font-size: 1.2em;
+        border-radius: 0.5em;
+        margin-top: 1em;
+
+    }
+
+    .about-me h1 {
+        font-size: 3em;
+        margin: 1.5em 13vw;
+
+    }
+
+    .about-me p {
+        width: 20em;
+        font-size: 1.6em;
+        margin: 1em 13vw;
+    }
+
+    .img-backgrounds {
+        display: none;
+    }
+
+    .gallery {
+        display: none;
+
+    }
+
+    #carouselExampleControls {
+        display: block;
+    }
+
+
+    .carousel-item {
+        overflow: hidden;
+        max-width: 90vw;
+        max-height: 50em;
+    }
+
+    .carousel-inner {
+        margin: auto;
+    }
+
+    .carousel-item img {
+        width: 120%;
+    }
+
+    .portfolio h1 {
+        color: white;
+        font-size: 3em;
+        padding-bottom: 2em;
+        margin: -1em 0em;
+    }
+
+    .info-cyan-rec {
+        display: none;
+    }
+
+    .contact-and-form {
+        overflow: hidden;
+        margin: -4em 0;
+        height: 85em;
+        width: 100%;
+    }
+
+    .info {
+        width: 150em;
+        margin: 10em 0;
+
+    }
+
+    .contact-and-form h1 {
+        font-size: 2.5em;
+        margin: 0 1em;
+    }
+
+    .contact-and-form p {
+        font-size: 1.4em;
+        margin: 1em 1.9em;
+    }
+
+    .contact-and-form form {
+        width: 26em;
+        margin: -1.5em 2em
+    }
+
+    .contact-and-form input {
+        font-size: 1.8em;
+    }
+
+    textarea {
+        margin-top: 1em;
+        font-size: 1.8em;
+    }
+
+    .contact-and-form button {
+        font-size: 2em;
+        width: 100%;
+        margin-top: 0.5em;
+    }
+
+    .info h2 {
+        font-size: 2em;
+        font-weight: 300;
+        padding-top: 1em;
+        margin: 0em 24vw;
+    }
+
+    .details {
+        padding: 0 2em;
+        margin: 0 20vw;
+    }
+
+    .details li {
+        list-style: none;
+        font-weight: 400;
+        font-size: 1.6em;
+        line-height: 3em;
+
+    }
+
+}
+
+
+@media only screen and (max-width: 625px) {
+    .hero-section {
+        height: 105vh;
+    }
+
+    .about-me h1 {
         font-size: 2.4em;
         margin: 1.5em 7vw;
-    
+
     }
-    
-    .about-me p{
+
+    .about-me p {
         width: 19em;
         font-size: 1.3em;
         margin: 0.8em 7vw;
     }
 
-    .contact-and-form h1{
+    .contact-and-form h1 {
         font-size: 2.4em;
         width: 8em;
         margin: auto;
     }
 
-    .contact-and-form p{
+    .contact-and-form p {
         font-size: 1.3em;
         width: 14.5em;
         margin: 1em auto;
     }
 
-    .contact-and-form form{
+    .contact-and-form form {
         width: 18em;
         margin: -1.5em auto
     }
-    
-    .contact-and-form input{
+
+    .contact-and-form input {
         font-size: 1.4em;
     }
-    
-    .contact-and-form button{
+
+    .contact-and-form button {
         font-size: 1.8em;
     }
 
-    .details{
+    .details {
         margin: 0 1vw;
-        }
-
-        .info{
-            margin-top: 11.6em;
-        }
-
-        .info h2{
-            font-size: 2em;
-            font-weight: 300;
-            padding-top: 1em;
-            margin: 0em 6vw;
-        }
-}
-
-@media only screen and (max-width: 420px){
-    .hero-section{
-        height:120vh;
     }
 
-    .about-me h1{
+    .info {
+        margin-top: 11.6em;
+    }
+
+    .info h2 {
+        font-size: 2em;
+        font-weight: 300;
+        padding-top: 1em;
+        margin: 0em 6vw;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .hero-section {
+        height: 120vh;
+    }
+
+    .about-me h1 {
         font-size: 2.9em;
         margin: 1.5em auto;
         width: 7.8em;
     }
-    
-    .about-me p{
+
+    .about-me p {
         width: 15em;
         font-size: 1.5em;
         margin: 0.5em auto;
     }
 
-    .details{
+    .details {
         margin: 0 auto;
-        }
+    }
 
-        .details li{
-            font-size: 1.5em;
-        }
+    .details li {
+        font-size: 1.5em;
+    }
 }
 
-@media only screen and (max-width: 375px){
-    .hero-section{
+@media only screen and (max-width: 375px) {
+    .hero-section {
         height: 105vh;
     }
 
-    .about-me h1{
+    .about-me h1 {
         font-size: 2.5em;
         margin: 1.5em auto;
         width: 7.8em;
     }
-    
-    .about-me p{
+
+    .about-me p {
         width: 15em;
         font-size: 1.3em;
         margin: 0.5em auto;
     }
 
-   
+
 }
