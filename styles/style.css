@@ -1,0 +1,638 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.hamb-menu{display: none;}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+#carouselExampleControls{display: none;}
+
+.close{
+    font-size: 3em;
+    display: none;
+}
+
+.hero-section{
+    background:url('../images/background.png');
+    background-size: cover;
+    height: 60em;
+    color: white;
+}
+
+nav ul{
+    float: right;
+    margin: 2em 8em;
+}
+
+nav ul li{
+    display: inline;
+    list-style-type: none;
+    margin-left: 6em;
+
+}
+
+
+
+
+nav ul li a{
+    color: white;
+    font-weight: 400;
+    font-size: 1.9em;
+    text-decoration: none;
+}
+
+nav ul li a:hover {color: cyan;}
+
+.hero-section img{
+    height: 50em;
+    width: 50em;
+}
+
+.description{
+    width: 90vw;
+    margin: 0em 4vw;
+    float: left;
+}
+
+/*about*/
+
+
+.txt{
+    position: relative;
+    float: right;
+    text-align: right;
+    margin-top: 9em;
+}
+
+.txt h1{
+    font-size: 5em;
+}
+
+.txt p{
+    font-size: 3em;
+    font-weight: lighter;
+    margin-top: 1em;
+}
+
+.txt .btn-light{
+    font-weight: 700;
+    font-size: 1.7em;
+    padding: 0.5em 2em;
+    border-radius: 0.6em;
+    margin-top: 4em;
+
+}
+
+
+/*About me*/
+
+
+.img-backgrounds{
+    float:right;
+    margin: -55em -10em;
+}
+
+.img-backgrounds img{
+    margin: -5em 0;
+}
+
+.white-rec{
+height: 10em;
+width: 34em;
+background-color: rgb(255, 255, 255);
+margin: -58em -3em;
+}
+
+.cyan-rec{
+    height: 35em;
+    width: 30em;
+    margin:78em 13em;
+    float: left;
+    background: cyan;
+}
+
+.about-me h1{
+    font-size: 4em;
+    margin: 1.5em 2em;
+
+}
+
+.about-me p{
+    width: 20em;
+    font-size: 2em;
+    margin: 2em 3.9em;
+}
+
+/*Portfolio*/
+
+.portfolio{
+    background-color: #13242b;
+    margin-top: 11em;
+    padding: 5em 1em;
+}
+
+.portfolio h1{
+    color: white;
+    font-size: 4em;
+    padding-top: 1em;
+    margin: 0em 2em;
+}
+
+.gallery{
+    margin: 0 6vw;
+    width: 90vw;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gallery img{
+    height: 40em;
+}
+
+
+.grid-item{
+    background-color: purple;
+    max-height: 29em;
+    max-width: 26.5em;
+    overflow: hidden;
+    margin-top: 2em;
+}
+
+/*Contact*/
+
+.contact-and-form{
+    height: 65em;
+    padding: 7em 0;
+    width: 90vw;
+    margin: 0 auto;
+    
+}
+
+
+
+.contact-and-form h1{
+    font-size: 4em;
+}
+
+.contact-and-form p{
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.contact-and-form form{
+    width: 36.5em;
+}
+
+.contact-and-form input{
+    outline: none;
+    font-size: 2em;
+    margin-top: 1em;
+    width: 100%;
+    font-weight: lighter;
+    border: 2px solid;
+    border-color: transparent transparent black transparent;
+}
+
+textarea{
+    width: 100%;
+    margin-top: 1em;
+    font-size: 2em;
+    font-weight: lighter;
+    border: 2px solid black;
+    outline: none;
+}
+
+.contact-and-form button{
+    background: #12232A;
+    color: white;
+    font-weight: 300;
+    font-size: 3em;
+    width: 100%;
+    margin-top: 0.5em;
+}
+
+/*info section*/
+
+.info{
+    background: #12232A;
+    color: white;
+    width: 43em;
+    height: 44em;
+    margin: 3em 15em;
+}
+
+.info h2{
+    font-size: 3.4em;
+    font-weight: 300;
+    padding-top: 1em;
+    margin: 0em 1.2em;
+}
+
+.details{
+padding: 0 4em;
+}
+
+.details li{
+    list-style: none;
+    font-weight: 400;
+    font-size: 2.5em;
+    line-height: 3.2em;
+
+}
+
+.details ion-icon{
+    margin: -0.19em 0;
+    padding-right: 0.3em;
+}
+
+.info-cyan-rec{
+    height: 7.2em;
+    width: 7.2em;
+    margin: -42.6em -5em;
+    background-color: #00ffff;
+
+}
+
+@media only screen and (max-width: 2000px){
+    nav ul{
+        margin: 2em 6em;
+    }
+
+    .info{
+        width: 43em;
+        height: 44em;
+        margin: 3em 0em;
+    }
+}
+
+
+@media only screen and (max-width: 1800px){
+    .hero-section img{
+        height: 43em;
+        width: 43em;
+        margin-top: 3em;
+    }
+
+    nav ul li a{
+        color: white;
+        font-weight: 400;
+        font-size: 1.7em;
+        text-decoration: none;
+    }
+    
+
+    .info{
+        width: 43em;
+        height: 44em;
+        margin: 3em 3em;
+    }
+
+    .txt h1{
+        font-size: 4em;
+    }
+    
+    .txt p{
+        font-size: 2.5em;
+    }
+
+    .txt .btn-light{
+        font-weight: 700;
+        font-size: 1.4em;
+        margin-top: 3em;
+    }
+}
+
+@media only screen and (max-width: 1600px){
+
+    .hero-section{
+        height: 55em;
+    }
+
+    nav ul li a{
+        font-size: 1.4em;
+    }
+
+    .txt h1{
+        font-size: 4em;
+    }
+    
+    .txt p{
+        font-size: 2.5em;
+        font-weight: lighter;
+        margin-top: 1em;
+    }
+    
+    .txt .btn-light{
+        font-size: 1.4em;
+        padding: 0.5em 2em;
+        border-radius: 0.5em;
+        margin-top: 3em;
+    
+    }
+
+
+    /*About me*/
+
+    .img-backgrounds{
+        margin: -50em -7em;
+    }
+    
+    .img-backgrounds img{
+        margin: -5em 0;
+        height: 49em;
+    }
+    
+    .white-rec{
+    height: 10em;
+    width: 30em;
+    margin: -46.5em -3em;
+    }
+    
+    .cyan-rec{
+        height: 30em;
+        width: 25em;
+        margin:60em 10em;
+    }
+    
+    .about-me h1{
+        font-size: 3em;
+        margin: 1.5em 2em;
+    
+    }
+    
+    .about-me p{
+        width: 20em;
+        font-size: 1.9em;
+        margin: 2em 3em;
+    }
+
+    /*contact and form*/
+    .contact-and-form h1{
+        font-size: 3em;
+    }
+
+    .contact-and-form p{
+        font-size: 1.8em;
+    }
+
+    .contact-and-form form{
+        width: 33em;
+    }
+    
+    .contact-and-form input{
+        font-size: 1.8em;
+    }
+    
+    textarea{
+        margin-top: 1em;
+        font-size: 1.8em;
+    }
+
+    .contact-and-form button{
+        font-size: 2em;
+        width: 100%;
+        margin-top: 0.5em;
+    }
+}
+
+@media only screen and (max-width: 965px){
+
+    .hero-section{
+        background:#12232A;
+        height:120vh;
+        color: white;
+    }
+
+nav ul{
+    display: none;
+    position: absolute;
+    top:-2em;
+    right: -6em;
+    width: 18em;
+    height: 23em;
+    text-align: left;
+    padding: 1em 1em ;
+    background-color:rgba(0, 0, 0, 0.9);
+}
+
+nav{position: relative;}
+
+
+nav ul li{
+    padding-top: 1em;
+  margin: 4em 2em;
+  line-height: 4em;
+}
+
+.close{
+    display: block;
+    float: right;
+}
+
+
+
+.hamb-menu{
+    color: white;
+    display: block;
+    position:absolute;
+    top: 0;
+    right: 0.3em;
+    font-size: 5em;
+}
+
+.hero-section img{
+    width: 120%;
+    height: 100%;
+    margin: -1em -3em;
+}
+
+.txt{
+    position: relative;
+    float: left;
+    text-align: left;
+    margin-top: 4em;
+}
+
+.txt h1{
+    font-size: 3em;
+}
+
+.txt p{
+    font-size: 2em;
+    font-weight: lighter;
+    margin-top: 1em;
+}
+
+.txt .btn-light{
+    font-size: 1.2em;
+    border-radius: 0.5em;
+    margin-top: 1em;
+
+}
+
+.about-me h1{
+    font-size: 3em;
+    margin: 1.5em 13vw;
+
+}
+
+.about-me p{
+    width: 20em;
+    font-size: 1.6em;
+    margin: 1em 13vw;
+}
+
+.img-backgrounds{
+display: none;
+}
+
+.gallery{
+    display: none;
+
+}
+
+#carouselExampleControls{
+    display: block;
+}
+
+
+.carousel-item{
+    overflow: hidden;
+    max-width: 90vw;
+    max-height: 50em;
+}
+
+.carousel-inner{
+    margin: auto;
+}
+
+.carousel-item img{
+    width: 120%;
+}
+
+.portfolio h1{
+    color: white;
+    font-size: 3em;
+    padding-bottom: 2em;
+    margin: -1em 0em;
+}
+
+.info-cyan-rec{
+    display: none;
+}
+
+.contact-and-form{
+    overflow: hidden;
+    margin: -4em 0;
+    height: 85em;
+    width: 100%;
+}
+
+.info{
+    width: 150em;
+    margin: 10em 0;
+
+}
+
+.contact-and-form h1{
+    font-size: 2.5em;
+    margin: 0 1em;
+}
+
+.contact-and-form p{
+    font-size: 1.4em;
+    margin: 1em 1.9em;
+}
+
+.contact-and-form form{
+    width: 26em;
+    margin: -1.5em 2em
+}
+
+.contact-and-form input{
+    font-size: 1.8em;
+}
+
+textarea{
+    margin-top: 1em;
+    font-size: 1.8em;
+}
+
+.contact-and-form button{
+    font-size: 2em;
+    width: 100%;
+    margin-top: 0.5em;
+}
+
+.info h2{
+    font-size: 2em;
+    font-weight: 300;
+    padding-top: 1em;
+    margin: 0em 24vw;
+}
+
+.details{
+padding: 0 2em;
+margin: 0 20vw;
+}
+
+.details li{
+    list-style: none;
+    font-weight: 400;
+    font-size: 1.6em;
+    line-height: 3em;
+
+}
+
+}
+
+
+@media only screen and (max-width: 625px){
+    .hero-section{
+        height:85vh;
+    }
+
+    .about-me h1{
+        font-size: 2.5em;
+        margin: 1.5em 7vw;
+    
+    }
+    
+    .about-me p{
+        width: 19em;
+        font-size: 1.3em;
+        margin: 0.8em 7vw;
+    }
+
+    .contact-and-form form{
+        width: 23em;
+        margin: -1.5em auto
+    }
+    
+    .contact-and-form input{
+        font-size: 1.8em;
+    }
+    
+    .contact-and-form button{
+        font-size: 1.8em;
+    }
+
+    .details{
+        margin: 0 1vw;
+        }
+
+        .info h2{
+            font-size: 2em;
+            font-weight: 300;
+            padding-top: 1em;
+            margin: 0em 6vw;
+        }
+}

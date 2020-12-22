@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.css"
+        integrity="sha512-3eoKq7cU6gdVeT+6eL40YcJLD8dxzQmOK54qxUWVjg7H4NN3u5AA5k5ywrqLV15hOZDBBgdQH/GK5CA9MwDVwg=="
+        crossorigin="anonymous" />
+    <title>Mirko Markovic</title>
+</head>
+
+<body>
+    <header class="hero-section">
+        <nav>
+            <ion-icon class="hamb-menu" name="menu-outline"></ion-icon>
+            <ul class="navigation-list">
+                <ion-icon class="close" id="close" name="close-outline"></ion-icon>
+                <li> <a href="#Home">Home</a> </li>
+                <li> <a href="#About">About me</a> </li>
+                <li> <a href="#Portfolio">Portfolio</a> </li>
+                <li> <a href="#Contact">Contact</a> </li>
+            </ul>
+        </nav>
+
+        <section class="description">
+            <img src="./images/mirko.jpg" alt="mirko">
+            <div class="txt">
+                <h1>Mirko Markovic</h1>
+                <p>Landscape and travel photographer <br> Based in Europe</p>
+                <button type="button" class="btn btn-light">Let's Talk</button>
+            </div>
+        </section>
+    </header>
+ <a name="About"></a>
+    <!--About me-->
+    <section class="about-me">
+        <h1>About Me</h1>
+        <p>
+            My name is Mirko, I am 23 years old and I live in Banja Luka, Bosnia and Herzegovina. I am a self-taught
+            photographer and have been awarded on prestigious platforms such as ViewBug, You Pic and the like. My works
+            have been shared by Canon Austria, Bosnia and Herzegovina, Croatia and others.
+        </p>
+
+        <p>I am the ambassador of the Sunwayfoto and Daniel Philip brands, and I work with FeiyuTech, Kingston
+            Technology and Skylum Global.</p>
+
+        <div class="img-backgrounds">
+            <img src="./images/AboutMirkoPic.jpg" alt="Mirko Markovic">
+            <div class="white-rec"></div>
+            <div class="cyan-rec"></div>
+        </div>
+    </section>
+    <a name="Portfolio"></a>
+    <!--Portfolio-->
+    <section class="portfolio">
+        <h1>Portfolio</h1>
+        <div class="gallery">
+
+            <div class="grid-item">
+                <a href="./images/waterfall.jpg" data-caption="Image caption">
+                    <img src="./images/waterfall.jpg" alt="First image">
+                </a>
+            </div>
+
+            <div class="grid-item">
+                <a href="./images/jogadude.jpg" style="margin: 0 -2em;" data-caption="Image caption">
+                    <img src="./images/jogadude.jpg" alt="First image">
+                </a>
+            </div>
+
+            <div class="grid-item">
+                <a href="./images/cityriver.jpg" data-caption="Image caption">
+                    <img src="./images/cityriver.jpg" alt="First image">
+                </a>
+            </div>
+
+            <div class="grid-item">
+                <a href="./images/forestwtrfl.jpg" data-caption="Image caption">
+                    <img src="./images/forestwtrfl.jpg" alt="First image">
+                </a>
+            </div>
+
+            <div class="grid-item">
+                <a href="./images/utah.jpg" data-caption="Image caption">
+                    <img src="./images/utah.jpg" alt="First image">
+                </a>
+            </div>
+
+            <div class="grid-item">
+                <a href="./images/redhousemontan.jpg" data-caption="Image caption">
+                    <img src="./images/redhousemontan.jpg" alt="First image">
+                </a>
+            </div>
+
+            <div class="grid-item">
+                <a href="./images/phonkillerlikepic.jpg" data-caption="Image caption">
+                    <img src="./images/phonkillerlikepic.jpg" alt="First image">
+                </a>
+            </div>
+
+            <div class="grid-item">
+                <a href="./images/italy.jpg" data-caption="Image caption">
+                    <img src="./images/italy.jpg" alt="First image">
+                </a>
+            </div>
+
+            <div class="grid-item">
+                <a href="./images/medna.jpg" data-caption="Image caption">
+                    <img src="./images/medna.jpg" alt="First image">
+                </a>
+            </div>
+        </div>
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/waterfall.jpg" alt="First image">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/jogadude.jpg" alt="First image">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/cityriver.jpg" alt="First image">
+              </div>
+
+              <div class="carousel-item">
+                <img src="./images/forestwtrfl.jpg" alt="First image">
+              </div>
+
+              <div class="carousel-item">
+                <img src="./images/utah.jpg" alt="First image">
+              </div>
+
+              <div class="carousel-item">
+                <img src="./images/redhousemontan.jpg" alt="First image">
+              </div>
+
+              <div class="carousel-item">
+                <img src="./images/phonkillerlikepic.jpg" alt="First image">
+              </div>
+
+              <div class="carousel-item">
+                <img src="./images/italy.jpg" alt="First image">
+              </div>
+
+              
+              <div class="carousel-item">
+                <img src="./images/medna.jpg" alt="First image">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div>
+    </section>
+
+    <a name="Contact"></a>
+
+    <section class="contact-and-form">
+        <div class="row">
+            <div class="col-sm">
+                <h1>Let's Talk</h1>
+                <p>Feel free to contact me any time. I will get <br> back to you as soon as possible!</p>
+              <form>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+               <!--<input type="text" placeholder="Message">-->
+            
+                <textarea cols="75" rows="5" placeholder="Message"></textarea>
+               <br>
+                <button type="submit">SEND</button>
+              </form>
+            </div>
+            <div class="col-sm" >
+              <section class="info">
+                  <h2>Info</h2>
+                  <ul class="details">
+                  <li><ion-icon name="mail-outline"></ion-icon>  mirko_markovic@live.com</li>
+                  <li><ion-icon name="logo-instagram"></ion-icon>  mirkomarkovicphotography</li>
+                  <li><ion-icon name="logo-facebook"></ion-icon>  Mirko Markovic</li>
+                  <li><ion-icon name="call"></ion-icon>  +387 66 383 927</li>  
+                  </ul>
+                  <div class="info-cyan-rec"></div>
+            
+              </section>
+            </div>
+          </div>
+    </section>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"
+        integrity="sha512-7KzSt4AJ9bLchXCRllnyYUDjfhO2IFEWSa+a5/3kPGQbr+swRTorHQfyADAhSlVHCs1bpFdB1447ZRzFyiiXsg=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <script>
+        window.addEventListener('load', function () {
+            baguetteBox.run('.gallery');
+        });
+
+     var close = document.getElementById("close");
+     const navigation = document.querySelector('.navigation-list');
+    var nav = document.querySelector('nav');
+    
+    nav.onmouseover = function(){
+        navigation.style.display="block"
+    }
+
+    nav.onmouseout = function(){
+        navigation.style.display="none"
+    }
+    </script>
+</body>
+
+</html>
