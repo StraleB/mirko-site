@@ -277,8 +277,8 @@ textarea {
 
     .hero-section img {
         margin: 2.5em 0;
-        height: 31em;
-        width: 31em;
+        height: 34em;
+        width: 34em;
     }
 
     .description {
@@ -454,21 +454,37 @@ textarea {
 }
 
 @media only screen and (max-width: 1366px){
+    .hero-section img {
+        margin: 2.5em 0;
+        height: 29em;
+        width: 29em;
+    }
+   
+   
     .white-rec {
         height: 10em;
-        width: 22em;
-        margin: -52.5em -2em;
+        width: 20em;
+        margin: -48em -2.5em;
     }
 
     .cyan-rec {
-        height: 26em;
+        height: 24em;
         width: 20em;
-        margin: 56em 5em;
+        margin: 50em 2em;
     }
 
     .img-backgrounds {
         float: right;
-        margin: -55em 0em;
+        margin: -55em 3em;
+    }
+
+    
+    .contact-and-form {
+        height: 52em;
+        padding: 7em 0;
+        width: 110vw;
+        margin: 0 auto;
+
     }
 }
 
@@ -527,6 +543,7 @@ textarea {
     .close {
         display: block;
         float: right;
+        opacity: 0;
     }
 
 
@@ -769,11 +786,15 @@ textarea {
     .details li {
         font-size: 1.5em;
     }
+
+    .hamb-menu{
+        font-size: 3.5em;
+    }
 }
 
 @media only screen and (max-width: 375px) {
     .hero-section {
-        height: 105vh;
+        height: 125vh;
     }
 
     .about-me h1 {
